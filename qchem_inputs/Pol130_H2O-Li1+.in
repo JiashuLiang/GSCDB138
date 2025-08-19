@@ -1,0 +1,47 @@
+$molecule
+0 2
+li
+o 1 oli2
+h 2 ho3 1 holi3
+h 2 ho3 1 holi3 3 dih4
+oli2 1.8761663320
+ho3 0.9640775111
+holi3 119.9304440815
+dih4 134.6652602013
+$end
+
+
+$rem
+N_FROZEN_CORE FC
+MEM_TOTAL 3750
+MEM_STATIC 1500
+AUX_BASIS_CORR rimp2-def2-QZVPPD
+SCF_CONVERGENCE 7
+SCF_ALGORITHM  GDM
+method DSD-PBEPBE-D3
+GEN_SCFMAN TRUE
+UNRESTRICTED True
+THRESH  14
+SYMMETRY FALSE
+SYM_IGNORE TRUE
+max_scf_cycles 200
+
+XC_GRID 000099000590
+BASIS AUG-PC-3
+
+
+$end
+
+
+
+
+
+$multipole_field
+X 0.0
+Y 0.001
+Z 0.0
+$end
+
+
+
+

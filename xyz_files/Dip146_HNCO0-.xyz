@@ -1,0 +1,6 @@
+4
+charge=0, multiplicity=1, basis=AUG-PC-3, multipole_field={'X': -0.0001}, AUX_BASIS_CORR=rimp2-def2-QZVPPD, SCF_ALGORITHM=GDM, xc_grid=000099000590, mem_total=3750, num_basis=317, num_pairs=50714, num_threads=1
+H1      1.3770  -1.3334 0.0000
+N2      0.4122  -1.0919 0.0000
+C3      0.0000  0.0500  0.0000
+O4      -0.5328 1.0846  0.0000

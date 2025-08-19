@@ -1,0 +1,6 @@
+4
+charge=0, multiplicity=1, basis=def2-QZVPPD, comment=['step_size = {step_size}'], AUX_BASIS_CORR=rimp2-def2-QZVPPD, SCF_ALGORITHM=GDM, xc_grid=000099000590, mem_total=3750, num_basis=211, num_pairs=20362, num_threads=1
+H  3.0128394600  -0.7840024900  0.0000000000
+O  2.5633369800  0.0630193600  0.0000000000
+H  1.6310116300  -0.1617719600  0.0000000000
+Ar  -1.1430886100  -0.0013716400  0.0000000000

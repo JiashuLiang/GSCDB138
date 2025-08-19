@@ -1,0 +1,3 @@
+1
+charge=0, multiplicity=4, basis=aug-cc-pwCVQZ(-PP), AUX_BASIS_CORR=rimp2-def2-QZVPPD, SCF_ALGORITHM=GDM, xc_grid=000250000974, mem_total=3750, ecp=GEN, num_basis=109, num_pairs=6235, num_threads=1
+N  0.0000000000  0.0000000000  0.0000000000

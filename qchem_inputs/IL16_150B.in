@@ -1,0 +1,39 @@
+$molecule
+-1 1 
+O          2.10442        0.04509        4.46415
+N          1.00003        0.04517        5.17428
+O          1.06554        0.04561        6.41159
+O         -0.11729        0.04479        4.54935
+$end
+
+
+$rem
+N_FROZEN_CORE FC
+MEM_TOTAL 3750
+MEM_STATIC 1500
+AUX_BASIS_CORR rimp2-def2-QZVPPD
+SCF_CONVERGENCE 7
+SCF_ALGORITHM  GDM
+method DSD-PBEPBE-D3
+GEN_SCFMAN TRUE
+UNRESTRICTED True
+THRESH  14
+SYMMETRY FALSE
+SYM_IGNORE TRUE
+max_scf_cycles 200
+
+XC_GRID 000099000590
+BASIS DEF2-QZVPPD
+
+
+$end
+
+
+
+
+
+
+
+
+
+

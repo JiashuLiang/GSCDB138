@@ -1,0 +1,4 @@
+2
+charge=0, multiplicity=1, basis=def2-QZVPPD, AUX_BASIS_CORR=rimp2-def2-QZVPPD, SCF_ALGORITHM=GDM, xc_grid=000099000590, mem_total=3750, num_basis=99, num_pairs=5136, num_threads=1
+F  0.3247382310  -0.0000961720  0.3675132430
+H  0.1063565990  -0.0000156060  1.2745355950
