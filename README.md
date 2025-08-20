@@ -65,11 +65,14 @@ This database is openly licensed via CC BY 4.0.
 If you use this dataset in your research, please cite the following paper:
 
 ```bibtex
-@article{GSCDB138,
-  title={Gold-Standard Chemical Database 138 (GSCDB138)},
-  author={Jiashu Liang and Martin Head-Gordon},
-  journal={arXiv preprint arXiv},
-  year={2025}
+@misc{liang2025gold,
+      title={Gold-Standard Chemical Database 138 (GSCDB138): A diverse set of accurate energy differences for assessing and developing density functionals}, 
+      author={Jiashu Liang and Martin Head-Gordon},
+      year={2025},
+      eprint={2508.13468},
+      archivePrefix={arXiv},
+      primaryClass={physics.chem-ph},
+      url={https://arxiv.org/abs/2508.13468}, 
 }
 ```
 
