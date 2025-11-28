@@ -68,12 +68,32 @@ The database provides molecular geometries and calculation setups in three stand
 
 - **Basis set**: 
   - The recommended basis sets can minimize basis set incompleteness errors
+  - **Recommended basis sets by dataset**:
+  
+    | Data Set Name | Basis Set |
+    |---------------|-----------|
+    | G21IP, IP23, IP30, G21EA, EA50 | aug-pc-4 |
+    | Dip146, HR46, Pol130, T144 | aug-pc-3 |
+    | AE18 | aug-cc-pCV5Z |
+    | RG10N, He3, excited He systems in O24x5 (O24_13, O24x4_49, O24x4_50, O24x4_51, O24x4_52) | d-aug-cc-pV5Z |
+    | OEEF | aug-cc-pVQZ |
+    | AE11 | Basis set from original paper (or see Q-Chem input files) |
+    | BH876, MME52, MOBH28, TMD10, MOR13, TMB11, ROST61 | def2-QZVPP |
+    | C60ISO7 | def2-TZVPD |
+    | 3d4dIPSS | 3d: aug-cc-pwCVQZ; 4d: aug-cc-pwCVQZ-PP |
+    | DAPD | aug-cc-pwCVQZ-PP for Pd; cc-pVQZ for H; aug-cc-pwCVQZ for other elements |
+    | P34AE, P34EA, P34IP | aug-cc-pwCVQZ-PP for In, Sn, Sb, Te, I, Xe; def2-QZVPPD for all others |
+    | All other datasets | def2-QZVPPD |
+  
   - **Special cases requiring specific basis sets**: AE11 (custom basis from original authors), P34, DAPD, and 3d4dIPSS (mixed basis sets) may need manual work for setup.
   - **Easy-to-use replacements**: 
     - Small molecules: `def2-QZVPPD`
     - Larger molecules: `def2-TZVPP` or `def2-TZVPPD`
     - AE11 dataset: Must use original basis sets (available in paper supplementary materials or Q-Chem input files)
     - Excited Helium systems in O24 and O24x4 (O24_13, O24x4_49, O24x4_50, O24x4_51, O24x4_52): Use `d-aug-cc-pV5Z`. `def2-QZVPPD` is not recommended due to poor performance.
+   
+- **Numeric precision**: 
+  - To ensure accuracy in energy differences, total energies may require up to 9 decimal places (in Hartree), particularly for the V30 dataset. It is recommended to use very tight SCF convergence thresholds and very dense integration grids to achieve this precision, especially when computing V30 properties.
 
 ## Analysis Workflow
 
