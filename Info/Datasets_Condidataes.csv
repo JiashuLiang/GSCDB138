@@ -1,0 +1,7 @@
+NIST NO2,"J. Phys. Chem. A 2022, 126, 30, 4981–4990",,,,,,,,,,,,,,,,
+G2/97,"J. Chem. Theory Comput. 2015, 11, 5, 2109–2119",,,,,,,,,,,,,,,,
+3dCSS,https://doi.org/10.1021/acs.jctc.4c00092,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+TMCONF5,TM,Test,Transition Metal,DLPNO-CCSD(T1)/def2-[TQ]ZVPP,20,,,"Relative energies in transitional metal conformers (5 systems, 5 confomers each)",New,2021,,,,,,"Phys. Chem. Chem. Phys., 2021, 23, 287-299",
+Fe Difficult,TM,Test,Transition Metal,CCSDT/mixed-ζ cc-pVXZ or CCSDTQ,4,,,"transition energy of FeCN, FeNC; fifth proton binding energies of [Fe(SH)4H]-",New,,,,,,,"J. Phys. Chem. A 2015, 119, 1, 215; J. Chem. Phys. 159, 044106 (2023)",
+ACONFL,I,Test,Intramolecular noncovalent,PNO-LCCSD(T)-F12b/haQZ/Tight,50,,a few tenths,"Relative conformational energies of dodecane, hexadecane, icosane conformers",Added to test set,2023,,,,,,"J. Chem. Theory Comput. 2023, 19, 20, 7007","J. Phys. Chem. A 2022, 126, 22, 3521–3535"
