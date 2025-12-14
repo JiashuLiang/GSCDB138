@@ -1,4 +1,4 @@
-Name,Datatype_Short,Datatype,Description,Theory level,#datapoints,RMS energy(kcal/mol),min,max,year for last update,MGCDB84,GMTKN55,Error(kcal/mol)
+Name,Datatype_Short,Datatype,Description,Theory level,#datapoints,RMS energy(kcal/mol),min,max,year for last update,MGCDB84,GMTKN55,Error(kcal/mol) estimation from original paper
 BH28,BH,Barrier Height,"Highly accurate subset chosen from BHPERI, CRBH20, BHDIV10, and PX13 sets",W3lite-F12,28.0,35.1841771849604,0.717017425439918,65.5592731857534,2019,,,0.22 on DBH24
 BH46,BH,Barrier Height,"Barrier heights of hydrogen transfer, heavy atom transfer, nucleophilic substitution, unimolecular and association reactions. This set comprises the remaining data points from BH76 after excluding those included in DBH22.",W2-F12,46.0,25.2101489833178,-12.300008984006,104.800079276064,2017,"HTBH38, NHTBH38",BH76,
 BH876,BH,Barrier Height,Comprehensive reaction barrier heights,HF/a[TQ]Z+MP2/a[TQ]Z+DLPNO-CCSD(T) /aTZ/tight,876.0,26.9992811428127,-96.2599997565051,144.39,2022,,,

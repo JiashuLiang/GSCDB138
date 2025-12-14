@@ -1,10 +1,9 @@
-He-He,Unnamed: 1,Unnamed: 2,Unnamed: 3,explicitly correlated wave functions,7,5e-05,Unnamed: 7,Unnamed: 8,2017,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,"PRL 119, 123401 (2017)"
-He–Ne Ne–Ar,,,,CCSD(T)/aug-cc-pV6Z-33211,45.0,,,,2004.0,,,,,,"Molecular Physics, 2004 102:1, 101-110,"
-Ne–Ne,,,,CCSD(T)/taV[56]Z(44332) + T/daVQZ(3321) + (Q)/daVTZ(3321) +Core/dawCV5Z,32.0,,,,2008.0,,,,,,"Molecular Physics, 2008 106:1, 133-140"
-He–Ar,,,,CCSD(T)/AE/av5z(not aug-cc-pV5Z),28.0,,,,2015.0,,,,,,"J. Chem. Phys. 143, 114313 (2015)"
-Ar–Ar,,,,"up to CCSDTQ, see Table X",33.0,0.001,,,2010.0,,,,,,"J. Chem. Phys. 133, 094304, 2010"
-He–Kr,,,,up to CCSDTQ,34.0,0.001,,,2017.0,,,,,,"J. Chem. Phys. 146, 214302 (2017)"
-"Ne–Kr, Ar-Kr",,,,up to CCSDT(Q),60.0,,,,2022.0,,,,,,Journal of Quantitative Spectroscopy & Radiative Transfer 288 (2022) 108244
-Kr–Kr,,,,up to CCSDTQ,36.0,,,,2016.0,,,,,,"J. Chem. Phys. 144, 114304 (2016)"
-,,,,,,,,,,,,,,,
-,,,,,275.0,,,,,,,,,,
+Systems,Theory level,#datapoints,year for last update,Ref
+He-He,explicitly correlated wave functions,7,2017,"PRL 119, 123401 (2017)"
+He-Ne Ne-Ar,CCSD(T)/aug-cc-pV6Z-33211,45,2004,"Molecular Physics, 2004 102:1, 101-110,"
+Ne-Ne,CCSD(T)/taV[56]Z(44332) + T/daVQZ(3321) + (Q)/daVTZ(3321) +Core/dawCV5Z,32,2008,"Molecular Physics, 2008 106:1, 133-140"
+He-Ar,CCSD(T)/AE/av5z(not aug-cc-pV5Z),28,2015,"J. Chem. Phys. 143, 114313 (2015)"
+Ar-Ar,"up to CCSDTQ, see Table X",33,2010,"J. Chem. Phys. 133, 094304, 2010"
+He-Kr,up to CCSDTQ,34,2017,"J. Chem. Phys. 146, 214302 (2017)"
+"Ne-Kr, Ar-Kr",up to CCSDT(Q),60,2022,Journal of Quantitative Spectroscopy & Radiative Transfer 288 (2022) 108244
+Kr-Kr,up to CCSDTQ,36,2016,"J. Chem. Phys. 144, 114304 (2016)"
