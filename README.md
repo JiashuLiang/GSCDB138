@@ -118,14 +118,16 @@ This database is openly licensed via CC BY 4.0.
 If you use this dataset in your research, please cite the following paper:
 
 ```bibtex
-@misc{liang2025gold,
-      title={Gold-Standard Chemical Database 137 (GSCDB137): A diverse set of accurate energy differences for assessing and developing density functionals}, 
-      author={Jiashu Liang and Martin Head-Gordon},
-      year={2025},
-      eprint={2508.13468},
-      archivePrefix={arXiv},
-      primaryClass={physics.chem-ph},
-      url={https://arxiv.org/abs/2508.13468}, 
+@article{liang2025gold,
+   author = {Liang, Jiashu and Head-Gordon, Martin},
+   title = {Gold-Standard Chemical Database 137 (GSCDB137): A Diverse Set of Accurate Energy Differences for Assessing and Developing Density Functionals},
+   journal = {Journal of Chemical Theory and Computation},
+   volume = {21},
+   number = {24},
+   pages = {12601-12621},
+   year = {2025},
+   doi = {10.1021/acs.jctc.5c01380},
+   url={https://doi.org/10.1021/acs.jctc.5c01380}, 
 }
 ```
 
