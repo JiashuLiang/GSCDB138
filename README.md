@@ -1,26 +1,8 @@
-# GSCDB137: Gold-Standard Chemical Database (Preprint)
-
-> **Note**: This is the continuously updated `main` branch with the latest improvements and corrections. For stable snapshots corresponding to specific arXiv versions, see the `arXivV1` and `arXivV2` branches. Version 1.0 will be released upon paper publication.
+# GSCDB137: Gold-Standard Chemical Database — v1.0.0
 
 GSCDB137 is a rigorously compiled benchmark database of 137 data sets (8377 entries) covering main-group and transition-metal reaction energies and barrier heights, non-covalent interactions, dipole moments, polarizabilities, electric-field response energies, and vibrational frequencies. Legacy data from GMTKN55 and MGCDB84 have been updated to today's best references; redundant, spin-contaminated, or low-quality points were removed, and many new, property-focused sets were added.
 
 This comprehensive database provides a stringent platform for density functional approximation (DFA) validation and serves as a foundation for training the next generation of semi-empirical and machine-learned functionals. Testing across 29 popular density-functional approximations reveals the expected Jacob's-ladder hierarchy overall, yet shows key exceptions and provides insights into functional performance across diverse chemical properties.
-
-## Changelog
-
-### Changes from arXivV1 to arXivV2 (current equivalent to main branch)
-
-The following summarizes substantive updates implemented for arXiv version 2, derived from user and reviewer feedback:
-
-- Removed three problematic data points from the 3d4dIPSS dataset
-- Merged XB20 and XB8 into XB25 after removing three overlapping data points
-- Combined PlatonicHD6, PlatonicID6, and PlatonicIG6 into a unified PlatonicRE18 dataset
-- Split P34 into three focused subsets (atomization energies, ionization potentials, and electron affinities) to enable more meaningful statistical analysis
-- Applied statistical weights to O24 and O24x4 high-variance entries to retain chemical diversity while reducing distortion from extreme reaction energies
-- Refined datatype classification: the previous broad ISO category has been subdivided into NC (noncovalent interactions), INC (intramolecular noncovalent interactions), and ISO (structural isomerization) for improved chemical context
-- Adjusted basis sets: adopted d-aug-cc-pV5Z for O24x5_he2 systems (def2-QZVPPD exhibited significant basis set incompleteness errors)
-- Updated reference of S66: added post-CCSD(T) correction from Chem. Phys. Lett. 2025, 863, 141874
-
 
 ## Getting Started
 
@@ -32,7 +14,7 @@ The following summarizes substantive updates implemented for arXiv version 2, de
 
 2. **Run your calculations** using the provided input files
 
-3. **Organize results** in `Molecule_Energies.xlsx` format
+3. **Organize results** in `Molecule_Energies.csv` format
 
 4. **Run analysis**:
    ```bash
@@ -97,16 +79,16 @@ The database provides molecular geometries and calculation setups in three stand
 
 ## Analysis Workflow
 
-We provide a comprehensive Jupyter notebook (`Analysis/analyze.ipynb`) for systematic evaluation of computational methods against the benchmark database. The analysis workflow processes molecular energies and converts them to the appropriate physical properties for comparison. The only Input Requirements is the `Molecule_Energies.xlsx` file, which should contain the results of your calculations. (Columns: Different computational methods/functionals; Rows: Individual molecules from the database)
+We provide a comprehensive Jupyter notebook (`Analysis/analyze.ipynb`) for systematic evaluation of computational methods against the benchmark database. The analysis workflow processes molecular energies and converts them to the appropriate physical properties for comparison. The only input requirement is the `Molecule_Energies.csv` file, which should contain the results of your calculations (columns: different computational methods/functionals; rows: individual molecules from the database).
 
 ### Structured Database Files
 
 Structured Excel files in the `Info/` directory provide comprehensive information about the database:
 
-- **`DatasetEval.xlsx`**: Contains the complete definitions for all 8,377 energy differences, their reference values, and the dataset each entry belongs to; The weights used for calculating weighted errors in TMC34 and O24x5 datasets are also included in other sheets of this file
-- **`Datasets.xlsx`**: Provides comprehensive information about each of the 137 datasets, including data source, system types, statistical summaries, and estimated accuracy
-- **`Standard_errors.xlsx`**: Lists the reference uncertainties for each data point, enabling users to meaningfully compare results for newly tested functionals with the original publication
-- **`FD_stepsize.xlsx`**: Documents the finite-difference step sizes used for the Pol130 and V30 datasets
+- **`DatasetEval.csv`**: Contains the complete definitions for all 8,377 energy differences, their reference values, and the dataset each entry belongs to; The weights used for calculating weighted errors in TMC34 and O24x5 datasets are also included in other sheets of this file
+- **`Datasets.csv`**: Provides comprehensive information about each of the 137 datasets, including data source, system types, statistical summaries, and estimated accuracy
+- **`Standard_errors.csv`**: Lists the reference uncertainties for each data point, enabling users to meaningfully compare results for newly tested functionals with the original publication
+- **`FD_stepsize.csv`**: Documents the finite-difference step sizes used for the Pol130 and V30 datasets
 
 These files enable users to easily access and utilize the benchmark data for custom analysis workflows.
 
@@ -118,14 +100,16 @@ This database is openly licensed via CC BY 4.0.
 If you use this dataset in your research, please cite the following paper:
 
 ```bibtex
-@misc{liang2025gold,
-      title={Gold-Standard Chemical Database 137 (GSCDB137): A diverse set of accurate energy differences for assessing and developing density functionals}, 
-      author={Jiashu Liang and Martin Head-Gordon},
-      year={2025},
-      eprint={2508.13468},
-      archivePrefix={arXiv},
-      primaryClass={physics.chem-ph},
-      url={https://arxiv.org/abs/2508.13468}, 
+@article{liang2025gold,
+   author = {Liang, Jiashu and Head-Gordon, Martin},
+   title = {Gold-Standard Chemical Database 137 (GSCDB137): A Diverse Set of Accurate Energy Differences for Assessing and Developing Density Functionals},
+   journal = {Journal of Chemical Theory and Computation},
+   volume = {21},
+   number = {24},
+   pages = {12601-12621},
+   year = {2025},
+   doi = {10.1021/acs.jctc.5c01380},
+   url={https://doi.org/10.1021/acs.jctc.5c01380}, 
 }
 ```
 
