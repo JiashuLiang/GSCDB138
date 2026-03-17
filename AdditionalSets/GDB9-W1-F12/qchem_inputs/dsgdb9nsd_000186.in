@@ -1,0 +1,30 @@
+$molecule
+0 1
+N        0.035449   -2.015023    0.000000
+C       -0.000000   -0.765043    0.000000
+O       -1.101431    0.063132   -0.000000
+C       -0.627782    1.364195   -0.000000
+C        0.695959    1.334572   -0.000000
+O        1.118722    0.019742    0.000000
+H       -0.896585   -2.414914    0.000000
+H       -1.350471    2.157831   -0.000000
+H        1.451526    2.096900   -0.000000
+$end
+
+
+$rem
+UNRESTRICTED True
+JOBTYPE sp
+METHOD COACH
+XC_GRID 000099000590
+NL_GRID 1
+THRESH  14
+SCF_CONVERGENCE  8
+BASIS def2-QZVPPD
+SYMMETRY FALSE
+SYM_IGNORE TRUE
+MEM_TOTAL  15000
+max_scf_cycles 200
+scf_algorithm gdm
+gen_scfman true
+$end
