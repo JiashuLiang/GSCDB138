@@ -1,5 +1,7 @@
 # GSCDB137: Gold-Standard Chemical Database — v1.0.0
 
+> **Note**: This version corresponds to the paper published on [JCTC](https://doi.org/10.1021/acs.jctc.5c01380).
+> 
 GSCDB137 is a rigorously compiled benchmark database of 137 data sets (8377 entries) covering main-group and transition-metal reaction energies and barrier heights, non-covalent interactions, dipole moments, polarizabilities, electric-field response energies, and vibrational frequencies. Legacy data from GMTKN55 and MGCDB84 have been updated to today's best references; redundant, spin-contaminated, or low-quality points were removed, and many new, property-focused sets were added.
 
 This comprehensive database provides a stringent platform for density functional approximation (DFA) validation and serves as a foundation for training the next generation of semi-empirical and machine-learned functionals. Testing across 29 popular density-functional approximations reveals the expected Jacob's-ladder hierarchy overall, yet shows key exceptions and provides insights into functional performance across diverse chemical properties.
