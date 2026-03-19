@@ -1,0 +1,32 @@
+$molecule
+0 1
+C        1.746508    1.138736    0.000000
+C        1.135967   -0.258896    0.000000
+C       -0.372223   -0.246137   -0.000000
+F       -0.876799    0.381443   -1.085210
+F       -0.876799   -1.498693   -0.000000
+F       -0.876799    0.381443    1.085210
+H        2.834109    1.068953    0.000000
+H        1.443502    1.700434   -0.883470
+H        1.443502    1.700434    0.883470
+H        1.445474   -0.824885   -0.880058
+H        1.445474   -0.824885    0.880058
+$end
+
+
+$rem
+UNRESTRICTED True
+JOBTYPE sp
+METHOD COACH
+XC_GRID 000099000590
+NL_GRID 1
+THRESH  14
+SCF_CONVERGENCE  8
+BASIS def2-TZVP
+SYMMETRY FALSE
+SYM_IGNORE TRUE
+MEM_TOTAL  15000
+max_scf_cycles 200
+scf_algorithm gdm
+gen_scfman true
+$end
