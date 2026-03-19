@@ -1,4 +1,4 @@
-# GSCDB137: Gold-Standard Chemical Database — v1.0.0
+# GSCDB: Gold-Standard Chemical Database
 
 > **Note**: This is a developing branch. The standard errors might be not updated.
 > 
