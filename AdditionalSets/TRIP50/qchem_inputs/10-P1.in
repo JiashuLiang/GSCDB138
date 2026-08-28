@@ -1,0 +1,30 @@
+$molecule
+0 2
+C      0.10177428    -0.30128135     0.33976749
+C     -0.53235000     0.81716238    -0.44486635
+O     -0.28785054     1.17941527    -1.53502289
+H      0.51195517     0.11271957     1.26109930
+H     -0.67686728    -1.01123117     0.61942180
+H      0.88333837    -0.79678470    -0.24040036
+$end
+
+
+$rem
+MEM_TOTAL 120000
+INTERNAL_STABILITY True
+UNRESTRICTED True
+JOBTYPE sp
+METHOD COACH
+XC_GRID 000099000590
+NL_GRID 1
+THRESH  14
+SCF_CONVERGENCE  8
+BASIS def2-TZVPP
+SYMMETRY FALSE
+SYM_IGNORE TRUE
+max_scf_cycles 200
+scf_algorithm gdm
+gen_scfman true
+internal_stability_iter 15
+internal_stability_davidson_iter 200
+$end
