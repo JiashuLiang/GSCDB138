@@ -1,7 +1,7 @@
 # GSCDB: Gold-Standard Chemical Database
 
 > **Note**: This is a developing branch. The standard errors might be not updated.
-> 
+>
 
 GSCDB137 is a rigorously compiled benchmark database of 137 data sets (8377 entries) covering main-group and transition-metal reaction energies and barrier heights, non-covalent interactions, dipole moments, polarizabilities, electric-field response energies, and vibrational frequencies. Legacy data from GMTKN55 and MGCDB84 have been updated to today's best references; redundant, spin-contaminated, or low-quality points were removed, and many new, property-focused sets were added.
 
