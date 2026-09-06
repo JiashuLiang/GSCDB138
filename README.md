@@ -11,6 +11,8 @@ This comprehensive database provides a stringent platform for density functional
 
 1. `EA50_22` has been removed because this negative electron affinity is an artifact of basis-set incompleteness. The remaining subset has been renamed `EA49`, and `DatasetEval.csv` has been updated accordingly. `Datasets.csv` and the affected analysis results now reflect the 49-entry subset. The notebook reuses the published EA50 normalization baseline for EA49; `Standard_errors.csv` remains unchanged. The development evaluation contains 8,376 entries.
 
+2. `3d4dIPSS_35` uses the selected Pd singlet-triplet reference of 21.39 kcal/mol (0.034087134751299 Hartree), obtained as 21.85 minus the 0.46 kcal/mol DKH-PP increment. Its affected metadata and results are updated using existing molecular energies and unchanged published standard errors.
+
 
 ## Getting Started
 
