@@ -1,0 +1,49 @@
+{
+  "status": "Sensitivity analysis of pinned original base; 21.39 kcal/mol selected separately by maintainer",
+  "base": "f62f5d844d64b4ff451cbfc9320a39d830857099",
+  "hartree_to_kcal_mol": 627.50947406,
+  "sets": 137,
+  "TM_sets": 9,
+  "set_reactions": 32,
+  "hybrids_available": [
+    "B3LYP",
+    "BMK",
+    "CAMB3LYP",
+    "CF22D",
+    "M052X",
+    "M062X",
+    "M08HX",
+    "MN15",
+    "PBE0",
+    "PW6B95",
+    "SOGGA11X",
+    "r2SCAN0",
+    "wB97M-V",
+    "wB97X-V"
+  ],
+  "excluded_double_hybrids": [
+    "wB97M2",
+    "revDSD-PBEP86-D4"
+  ],
+  "normalization": "Frozen published standard plus explicitly exploratory available-panel rebaselining",
+  "validated": "All 32 reactions x 16 functionals and stored MAE/MSE/RMSE/NER; absolute tolerance 1e-8",
+  "input_sha256": {
+    "Info/DatasetEval.csv": "0b95de0d35308e7ea39e1f73ed68d7ab5a65f4195212ee6295383fbf22281fbe",
+    "Info/DatasetEval_O24x5_weight.csv": "fb345379a0dc3d576ae9d51a84b41c7965e3ca591d1c5e80f169c75bb33b0df3",
+    "Info/DatasetEval_TMC34_weight.csv": "fc1353bfe8297808502451a17866a3dbcd58f23482a745aad5a5b0b0c44c5049",
+    "Info/Datasets.csv": "1d828b5e65bf3b14b2f64aef40235e389be1934148057d3818a4b4387bf3817e",
+    "Info/Datasets_RG10N.csv": "6676e1336ebaef967cdbdbbb08977adb8e8a21d7e2d91f8a74f6d5a21c796b9e",
+    "Info/FD_stepsize.csv": "4d01267c1d84024dc76770b6024372638bd279b365a7c8e94ef0eaa02ace24bf",
+    "Info/Standard_errors.csv": "dcc065a43deadba99265bbdfdb8d7b4b43f8f8eddf547448fd3f308a0e478863",
+    "Analysis/Errors_per_set_MAE.csv": "b9311b2d0cbb5df374c3286658705a7ab576883350f622bd59f4c94c56dc62ea",
+    "Analysis/Errors_per_set_MSE.csv": "0558d54048cf42ec442a2e001e00d1314aca8f1308d9e6b96e6fd9aebe5d839e",
+    "Analysis/Errors_per_set_Metric.csv": "1ff4748517a9dbc7b0446205da75b09220f592c92f1caf3468cf2e857b051f5a",
+    "Analysis/Errors_per_set_RMSE.csv": "3c612b92a43d553cab45b7c07c8b79577c66de07bd608551f512e9aa3895ddf0",
+    "Analysis/Molecule_Energies.csv": "5480516ddf43b9699ea08292364c14f86c183f321717c487932c63bd202e4dfa",
+    "Analysis/Reaction_Energies.csv": "10b0b5c14a0b3c53b7fb0de239b535ac7d0568856b6984ba80e84de35beee2ac",
+    "Analysis/Relative_metric_per_set.csv": "c79ff79abe8c34be42cdc105c1900eec06e278c08d5d1b8b85731e3101c4e58a",
+    "Analysis/Results_errors.csv": "e708f4138f07279846b988e774d3fee79a2a2ac245d910a257b362f2d4976d57",
+    "Analysis/Results_values.csv": "c9e201adfd4fd4cd23bd5134092a3d92423588f068df0b09715f67473c8f392e",
+    "Analysis/Statistical_errors.csv": "08afb1b8e50364b8d25a29365639716f931a0904321f58710dd2ef425d442a88"
+  }
+}

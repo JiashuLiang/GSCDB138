@@ -119,7 +119,7 @@ Reaction,Dataset,Reference,Stoichiometry
 3d4dIPSS_30,3d4dIPSS,0.141996375,"1,3d4dIPSS_Zn_ES,-1,3d4dIPSS_Zn_GS"
 3d4dIPSS_31,3d4dIPSS,0.051154606,"1,3d4dIPSS_Y_ES,-1,3d4dIPSS_Y_GS"
 3d4dIPSS_32,3d4dIPSS,0.022947861,"1,3d4dIPSS_Zr_ES,-1,3d4dIPSS_Zr_GS"
-3d4dIPSS_35,3d4dIPSS,0.115886697,"1,3d4dIPSS_Pd_ES,-1,3d4dIPSS_Pd_GS"
+3d4dIPSS_35,3d4dIPSS,0.034087134751299,"1,3d4dIPSS_Pd_ES,-1,3d4dIPSS_Pd_GS"
 A19Rel6_1,A19Rel6,0.00297366,"1,01_water-ammonia_0p9_dim_A21x12,-1,01_water-ammonia_1p0_dim_A21x12"
 A19Rel6_2,A19Rel6,0.001290817,"1,01_water-ammonia_1p1_dim_A21x12,-1,01_water-ammonia_1p0_dim_A21x12"
 A19Rel6_3,A19Rel6,0.003346563,"1,01_water-ammonia_1p2_dim_A21x12,-1,01_water-ammonia_1p0_dim_A21x12"

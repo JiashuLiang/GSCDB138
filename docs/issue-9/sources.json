@@ -1,0 +1,50 @@
+[
+  {
+    "source": "GSCDB main text",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12746454/",
+    "retrieved": "2026-09-05",
+    "sha256": "fe901005a23192aa8c2707c5a49631441db365aa7f0469e01f5ac49583f6b11e"
+  },
+  {
+    "source": "2025 Pd main text",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12498498/",
+    "retrieved": "2026-09-05",
+    "sha256": "21d892b4f1745bce2c90cee9ed74010f23c9e2e74070763624c4a356854b2c84"
+  },
+  {
+    "source": "2025 Pd SI",
+    "url": "https://ndownloader.figshare.com/files/58130015",
+    "retrieved": "2026-09-05",
+    "sha256": "54e68cb9eb48b43b961efa9f75ac5ea63b62a78e0f4af69e220adcd31b1c4376"
+  },
+  {
+    "source": "ACCDB values",
+    "url": "https://raw.githubusercontent.com/peverati/ACCDB/master/Databases/MetalsEE/4d-SSIP24/DatasetEval.csv",
+    "retrieved": "2026-09-05",
+    "sha256": "49b4aa1824886f0bed4a34be2216c96f8e0b9433560ae037dc9b5fc4f3799c58"
+  },
+  {
+    "source": "ACCDB source notes",
+    "url": "https://raw.githubusercontent.com/peverati/ACCDB/master/Databases/MetalsEE/4d-SSIP24/README.md",
+    "retrieved": "2026-09-05",
+    "sha256": "3f13f1706bbbf39094a123fba3ac03ef04566813169af32696acd7c9294124a7"
+  },
+  {
+    "source": "BSE Pd basis/ECP",
+    "url": "https://www.basissetexchange.org/api/basis/aug-cc-pwcvqz-pp/format/json/?elements=46",
+    "retrieved": "2026-09-05",
+    "sha256": "07283c14d161fb5386d03e2b690a704a1fefa0a13529f69cb5ef8990f0b53b64"
+  },
+  {
+    "source": "ACCDB HS multiplicity",
+    "url": "https://raw.githubusercontent.com/peverati/ACCDB/master/Geometries/4dSS_IP24_Pd_HS.xyz",
+    "retrieved": "2026-09-05",
+    "sha256": "4b7885895b635da63887f233f7689f5f834fe389c0a21a87a94249b3247ff29b"
+  },
+  {
+    "source": "ACCDB LS multiplicity",
+    "url": "https://raw.githubusercontent.com/peverati/ACCDB/master/Geometries/4dSS_IP24_Pd_LS.xyz",
+    "retrieved": "2026-09-05",
+    "sha256": "440267ed693b4ebeeb3bd9db6af2f1594fdd4316d5d5b22cd815a26483945f7a"
+  }
+]
