@@ -9,7 +9,7 @@ This comprehensive database provides a stringent platform for density functional
 
 ## Changes in the Development Branch
 
-1. `EA50_22` has been removed because this negative electron affinity is an artifact of basis-set incompleteness. The remaining subset has been renamed `EA49`, and `DatasetEval.csv` has been updated accordingly. `Datasets.csv` and `Standard_errors.csv` have not yet been revised to reflect this change.
+1. `EA50_22` has been removed because this negative electron affinity is an artifact of basis-set incompleteness. The remaining subset has been renamed `EA49`, and `DatasetEval.csv` has been updated accordingly. `Datasets.csv` and the affected analysis results now reflect the 49-entry subset. The notebook reuses the published EA50 normalization baseline for EA49; `Standard_errors.csv` remains unchanged. The development evaluation contains 8,376 entries.
 
 
 ## Getting Started

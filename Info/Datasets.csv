@@ -98,7 +98,7 @@ CR20,TC,Thermochemistry,Cycloreversion reaction energies,W1w and W1-F12,20.0,22.
 DARC,TC,Thermochemistry,Reaction energies of Diels-Alder reactions,W1-F12,14.0,34.941119655197,-60.8000461790359,-14.0000105879188,2017,,DARC,
 DC13,TC,Thermochemistry,13 difficult cases for DFT methods,Various,13.0,71.3183147217153,-106.000080076026,152.600115220062,2017,,DC13,
 DIPCS9,TC,Thermochemistry,Double-ionisation potentials of closed-shell systems,W1-F12,9.0,650.431965236731,522.100394329323,776.500586511787,2017,,DIPCS10,"0.72, 2.13 (MR) vs W4"
-EA50,TC,Thermochemistry,Vertical electron affinities,EKT-CCSD(T)/aQZ,50.0,45.4184734383351,-1.15302732326313,103.772465368777,2021,,,
+EA49,TC,Thermochemistry,Vertical electron affinities,EKT-CCSD(T)/aQZ,49.0,45.87929082450795,2.0754493073755325,103.77246536877661,2021,,,
 FH51,TC,Thermochemistry,Reaction energies in various (in-)organic systems,HF/QZ-F12+CABS +MP2/QZ-F12+CCSD(F12*)/TZ-F12 +(T)/[DT]Z-F12,51.0,45.3538151424734,-150.810113697341,-0.179999837615163,2015(13),,FH51,
 G21EA,TC,Thermochemistry,Adiabatic electron affinities,W3,25.0,41.04888643337,0.189137630576425,89.0866107710703,1999,G21EA,G21EA,
 G21IP,TC,Thermochemistry,Adiabatic ionisation potentials,W3,36.0,265.653985355767,118.130574905729,402.151148875533,1999,G21EA,G21EA,
